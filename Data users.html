@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Parkir - Smart Parking</title>
+    <link rel="stylesheet" href="StyleDatauser.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1 class="logo">SmartParking</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="data-users.html" class="active">Data Users</a></li>
+                    <li><a href="parking-activities.html">Parking Activities</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Main Section -->
+    <section class="menu-section">
+        <h2>Data Parkir Keluar</h2>
+        <div class="parking-container">
+            <!-- Input Parkir -->
+            <div class="input-section">
+                <label for="id-parkir">ID Parkir</label>
+                <input type="text" id="id-parkir" placeholder="Input ID Parkir disini">
+                <button class="btn-submit">Submit</button>
+            </div>
+            
+            <!-- Tabel Parkir -->
+            <div class="table-section">
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Kode Parkir</th>
+                            <th>Tanggal / Jam Masuk</th>
+                            <th>Tanggal / Jam Keluar</th>
+                            <th>Lama Parkir</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>P-00001</td>
+                            <td>2018-08-26 06:39:00</td>
+                            <td>2018-08-26 09:03:44</td>
+                            <td>2.24</td>
+                            <td><button class="status-btn keluar">Keluar</button></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>P-00002</td>
+                            <td>2018-08-26 09:16:17</td>
+                            <td>2018-08-26 09:16:34</td>
+                            <td>0.00</td>
+                            <td><button class="status-btn keluar">Keluar</button></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>P-00004</td>
+                            <td>2018-12-04 15:30:48</td>
+                            <td>2018-12-04 15:38:25</td>
+                            <td>0.08</td>
+                            <td><button class="status-btn keluar">Keluar</button></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>P-00005</td>
+                            <td>2018-12-05 11:30:35</td>
+                            <td>2018-12-05 11:31:49</td>
+                            <td>0.01</td>
+                            <td><button class="status-btn keluar">Keluar</button></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>P-00003</td>
+                            <td>2018-08-28 13:38:11</td>
+                            <td>2018-12-05 11:33:07</td>
+                            <td>2.05</td>
+                            <td><button class="status-btn keluar">Keluar</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

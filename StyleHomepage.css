@@ -1,0 +1,76 @@
+/* Reset basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    display: flex; /* Menggunakan Flexbox */
+    justify-content: center; /* Memposisikan konten ke tengah horizontal */
+    align-items: center; /* Memposisikan konten ke tengah vertikal */
+    height: 100vh; /* Tinggi layar penuh */
+    background-color: #f8f8f8; /* Warna latar belakang */
+}
+
+/* Main Container */
+.container {
+    display: flex; /* Menggunakan Flexbox */
+    flex-direction: column; /* Menyusun elemen secara vertikal */
+    justify-content: center; /* Menyusun konten secara teratur ke tengah */
+    align-items: center; /* Menyatukan ke tengah horizontal */
+    text-align: center; /* Teks menjadi rata tengah */
+    width: 100%;
+    max-width: 400px; /* Lebar maksimum container */
+    padding: 20px;
+}
+
+/* Logo Styling */
+.logo {
+    width: 100px; /* Ukuran logo proporsional */
+    height: auto; /* Menjaga aspect ratio */
+    margin-bottom: 15px; /* Jarak antara logo dan judul */
+}
+
+/* Title Styling */
+.title {
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 10px; /* Jarak ke deskripsi */
+}
+
+/* Description Styling */
+.description {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    line-height: 1.5; /* Jarak antar baris */
+    margin-bottom: 30px; /* Jarak ke tombol */
+    padding: 0 20px; /* Padding samping agar lebih rapi */
+}
+
+/* Button Styling */
+.button {
+    width: 100%;
+    max-width: 300px;
+    height: 50px;
+    margin: 100px 0; /* Jarak antar tombol */
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #8e44ad; /* Warna ungu */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: opacity 0.3s; /* Efek hover halus */
+}
+
+.button.daftar {
+    background-color: #7f8c8d; /* Warna abu-abu */
+}
+
+.button:hover {
+    opacity: 0.9; /* Efek hover */
+}

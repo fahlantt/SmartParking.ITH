@@ -1,0 +1,81 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body and Background */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+/* Main Container */
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo Styling */
+.logo {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+/* Heading Styling */
+h1 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Input Fields Styling */
+input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+/* Button Styling */
+.btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #8e44ad;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* Register Options Styling */
+.register-options {
+    margin-top: 20px;
+}
+
+.register-options a {
+    color: #8e44ad;
+    text-decoration: none;
+}
+
+.register-options a:hover {
+    text-decoration: underline;
+}
